@@ -22,7 +22,6 @@ packages=(
   wofi 
   wlogout 
   xdg-desktop-portal-hyprland 
-  swappy 
   grim 
   slurp 
   thunar 
@@ -88,7 +87,6 @@ packages=(
   cobang 
   webapp-manager
   xampp
-  bibata-cursor-theme
   spotify-adblock-git
   qbittorrent
   gnome-calculator
