@@ -95,6 +95,8 @@ packages=(
   azote
   yazi
   jupyterlab
+  discord
+  xwaylandvideobridge
 )
 
 for package in "${packages[@]}"; do
