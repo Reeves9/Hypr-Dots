@@ -17,13 +17,11 @@ packages=(
   waybar 
   jq 
   mako 
-  hyprpaper 
   swaylock-effects 
   wofi 
   wlogout 
   xdg-desktop-portal-hyprland 
-  grim 
-  slurp 
+  hyprshot
   thunar 
   polkit-gnome 
   python-requests 
