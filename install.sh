@@ -105,6 +105,8 @@ done
 
 #Enabling power management and bluetooth
 sudo systemctl enable auto-cpufreq bluetooth sddm
+
+#Making theme directory
 mkdir ~/.themes
 mkdir ~/.icons
 
