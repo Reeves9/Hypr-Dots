@@ -82,8 +82,6 @@ packages=(
   kvantum
   cheese
   prismlauncher
-  cobang 
-  webapp-manager
   xampp
   spotify-adblock-git
   qbittorrent
