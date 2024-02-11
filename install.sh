@@ -104,13 +104,15 @@ for package in "${packages[@]}"; do
 done
 
 #Enabling power management and bluetooth
-sudo systemctl enable auto-cpufreq bluetooth 
+sudo systemctl enable auto-cpufreq bluetooth sddm
+mkdir ~/.themes
+mkdir ~/.icons
 
 #copying configs 
-cp -r ./configs/* ~/.config/
-cp -r ./Theme/* ~/.themes/
-cp -r ./Icons/* ~/.icons/
-cp -r ./Wallpapers/ ~/Pictures/Wallpapers/
+cp -r /configs/* ~/.config/
+cp -r /Theme/* ~/.themes/
+cp -r /Icons/* ~/.icons/
+cp -r /Wallpapers/* ~/Pictures/Wallpapers/
 
 #changing shell 
 chsh -s /bin/fish
