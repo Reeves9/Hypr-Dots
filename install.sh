@@ -93,6 +93,7 @@ packages=(
   jupyterlab
   discord
   xwaylandvideobridge
+  kitty-xterm-symlinks
 )
 
 for package in "${packages[@]}"; do
