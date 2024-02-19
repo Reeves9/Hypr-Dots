@@ -104,14 +104,18 @@ done
 sudo systemctl enable auto-cpufreq bluetooth sddm
 
 #Making theme directory
+mkdir ~/.config
 mkdir ~/.themes
 mkdir ~/.icons
 
 #copying configs 
-cp -r /configs/* ~/.config/
-cp -r /Theme/* ~/.themes/
-cp -r /Icons/* ~/.icons/
-cp -r /Wallpapers/* ~/Pictures/Wallpapers/
+cp -r ./configs/* ~/.config/
+cp -r ./Theme/* ~/.themes/
+cp -r ./Icons/* ~/.icons/
+cp -r ./Wallpapers/* ~/Pictures/Wallpapers/
 
 #changing shell 
 chsh -s /bin/fish
+
+#helpful tip
+echo "use azote to chanfe and set wallpaper"
