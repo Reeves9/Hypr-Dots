@@ -118,4 +118,4 @@ cp -r ./Wallpapers/* ~/Pictures/
 chsh -s /bin/fish
 
 #helpful tip
-echo "use azote to chanfe and set wallpaper"
+echo "use azote to change and set wallpaper"
