@@ -1,6 +1,6 @@
 * {
     border: none;
-    border-radius: 10;
+    border-radius: 5;
     font-family: "JetBrainsMono Nerd Font";
     font-weight: bold;
     font-size: 16px;
@@ -15,7 +15,7 @@ window#waybar {
 tooltip {
     background: #404859;
     opacity: 0.8;
-    border-radius: 10px;
+    border-radius:5px;
     border-width: 2px;
     border-style: solid;
     border-color: #11111b;
@@ -38,19 +38,19 @@ tooltip label{
 #workspaces button.focused {
     color: #a6adc8;
     background: #eba0ac;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 #workspaces button.urgent {
     color: #11111b;
     background: #a6e3a1;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 #workspaces button:hover {
     background: #11111b;
     color: #cdd6f4;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 #custom-launch_wofi,
@@ -81,7 +81,7 @@ tooltip label{
 }
 
 #custom-launch_wofi {
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 #custom-light_dark {
@@ -106,7 +106,7 @@ tooltip label{
 }
 
 #window {
-    border-radius: 10px;
+    border-radius: 5px;
     margin-left: 20px;
     margin-right: 20px;
 }
