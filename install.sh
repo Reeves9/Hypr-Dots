@@ -86,12 +86,12 @@ packages=(
   spotify-adblock-git
   qbittorrent
   gnome-calculator
-  chromium-wayland-vaapi
+  thorium-browser-bin
   swaybg
   azote
   yazi
   jupyterlab
-  discord
+  webcord
   xwaylandvideobridge
   kitty-xterm-symlinks
 )
