@@ -110,9 +110,9 @@ mkdir ~/.icons
 
 #copying configs 
 cp -r ./configs/* ~/.config/
-cp -r ./Theme/* ~/.themes/
+cp -r ./Themes/* ~/.themes/
 cp -r ./Icons/* ~/.icons/
-cp -r ./Wallpapers/* ~/Pictures/Wallpapers/
+cp -r ./Wallpapers/* ~/Pictures/
 
 #changing shell 
 chsh -s /bin/fish
