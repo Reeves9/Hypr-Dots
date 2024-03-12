@@ -53,20 +53,14 @@ packages=(
   code
   code-marketplace 
   mpv 
-  totem 
   tumbler 
   ffmpegthumbnailer 
   vulkan-radeon 
-  bottles
   libva-mesa-driver 
   libva-vdpau-driver
   neovim 
-  gnome-boxes  
   evince
   loupe
-  kdenlive 
-  krita 
-  blender 
   obs-studio 
   qt5ct 
   qt6ct 
@@ -74,25 +68,16 @@ packages=(
   fish
   gvfs-mtp
   sddm-config-editor-git
-  cargo
-  ruby
-  npm
   clang
-  telegram-desktop
-  scrcpy
   auto-cpufreq
   kvantum
   cheese
-  prismlauncher
-  xampp
   spotify-adblock-git
   qbittorrent
   gnome-calculator
   thorium-browser-bin
   swww
   yazi
-  jupyterlab
-  webcord
   xwaylandvideobridge
   kitty-xterm-symlinks
 )
