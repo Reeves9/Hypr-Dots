@@ -17,7 +17,8 @@ packages=(
   waybar 
   jq 
   mako 
-  swaylock-effects 
+  hyprlock-git
+  hypridle-git
   wofi 
   wlogout 
   xdg-desktop-portal-hyprland 
@@ -49,7 +50,8 @@ packages=(
   qt6-wayland 
   amberol 
   libreoffice-fresh 
-  visual-studio-code-bin 
+  code
+  code-marketplace 
   mpv 
   totem 
   tumbler 
@@ -87,8 +89,7 @@ packages=(
   qbittorrent
   gnome-calculator
   thorium-browser-bin
-  swaybg
-  azote
+  swww
   yazi
   jupyterlab
   webcord
@@ -117,5 +118,3 @@ cp -r ./Wallpapers/* ~/Pictures/
 #changing shell 
 chsh -s /bin/fish
 
-#helpful tip
-echo "use azote to change and set wallpaper"
