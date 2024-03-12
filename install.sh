@@ -113,7 +113,7 @@ mkdir ~/.icons
 cp -r ./configs/* ~/.config/
 cp -r ./Themes/* ~/.themes/
 cp -r ./Icons/* ~/.icons/
-cp -r ./Wallpapers/* ~/Pictures/
+cp -r ./Wallpapers/ ~/Pictures/
 
 #changing shell 
 chsh -s /bin/fish
