@@ -3,8 +3,8 @@
 # installing chaotic aur and yay
 sudo pacman-key --recv-key 3056513887B78AEB --keyserver keyserver.ubuntu.com
 sudo pacman-key --lsign-key 3056513887B78AEB
-sudo pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-keyring.pkg.tar.zst'
-sudo pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-mirrorlist.pkg.tar.zst'
+sudo pacman -U --noconfirm 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-keyring.pkg.tar.zst' 
+sudo pacman -U --noconfirm 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-mirrorlist.pkg.tar.zst'
 sudo cp pacman.conf /etc/
 sudo pacman -Sy
 sudo pacman -S yay
@@ -19,6 +19,7 @@ packages=(
   mako 
   hyprlock-git
   hypridle-git
+  hyprpaper
   wofi 
   wlogout 
   xdg-desktop-portal-hyprland 
@@ -76,7 +77,6 @@ packages=(
   qbittorrent
   gnome-calculator
   thorium-browser-bin
-  swww
   yazi
   xwaylandvideobridge
   kitty-xterm-symlinks
