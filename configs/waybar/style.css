@@ -27,12 +27,12 @@ tooltip label{
 
 #workspaces button {
     padding: 5px;
-    color: #000000;
+    color: #ffffff;
     margin-right: 5px;
 }
 
 #workspaces button.active {
-    color: #a6adc8;
+    color: #11111b;
 }
 
 #workspaces button.focused {
@@ -54,23 +54,13 @@ tooltip label{
 }
 
 #custom-launch_wofi,
-#custom-lock_screen,
-#custom-light_dark,
-#custom-power_btn,
-#custom-power_profile,
-#custom-weather,
-#custom-myhyprv,
 #window,
-#cpu,
 #disk,
-#custom-updates,
-#memory,
 #clock,
 #battery,
 #pulseaudio,
 #network,
 #tray,
-#temperature,
 #workspaces,
 #backlight {
     background: #313744;
@@ -80,29 +70,30 @@ tooltip label{
     border: 0px;
 }
 
-#custom-launch_wofi {
-    border-radius: 5px;
+#window {
+  color: #11111b;
+  background-color: #EE99A0;
 }
 
-#custom-light_dark {
-    border-radius: 0px 10px 10px 0px;
-    margin-right: 10px;
+#clock {
+  color: #11111b;
+  background-color: #8BD5CA;
 }
 
-#temperature.critical {
-    color: #e92d4d;
+#tray {
+  color: #11111b;
+  background-color: #24273A;
 }
 
+#backlight {
+  color: #11111b;
+  background-color: #ED8796;
+}
 
 #workspaces {
     padding-right: 0px;
     padding-left: 5px;
-}
-
-#custom-power_profile, #battery, #temperature{
-    color: #a6e3a1;
-    border-left: 0px;
-    border-right: 0px;
+    background-color : #B7BDF8;
 }
 
 #window {
@@ -112,25 +103,29 @@ tooltip label{
 }
 
 #custom-launch_wofi {
-    color: #89b4fa;
+    color: #11111b;
+    background-color: #C5CFF5;
     margin-left: 3px;
     border-right: 0px;
 }
 
 #pulseaudio {
-    color: #cdd6f4;
+    color: #11111b;
+    background-color: #F5A97F;
     border-left: 0px;
     border-right: 0px;
 }
 
 #pulseaudio.microphone {
-    color: #cdd6f4;
+    color: #11111b;
+    background-color: #EED49F;
     border-left: 0px;
     border-right: 0px;
 }
 
 #battery {
-    color: #cdd6f4;
+    color: #11111b;
+    background-color: #A6DA95;
     border-left: 0px;
 }
 
